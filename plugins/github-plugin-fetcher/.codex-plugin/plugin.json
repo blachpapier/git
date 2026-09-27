@@ -1,0 +1,18 @@
+{
+  "name": "github-plugin-fetcher",
+  "version": "0.1.0",
+  "description": "Fetch, inspect, and safely install plugins and skills from GitHub repositories.",
+  "author": {
+    "name": "blachpapier"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "GitHub Plugin Fetcher",
+    "shortDescription": "Fetch and inspect GitHub plugins.",
+    "longDescription": "Fetches GitHub repositories, inspects plugin and skill metadata, reports dependencies and versions, and keeps installation and execution behind explicit confirmation.",
+    "developerName": "blachpapier",
+    "category": "Developer Tools",
+    "capabilities": ["github", "git", "plugin-fetching"],
+    "defaultPrompt": "Fetch and inspect this GitHub plugin:"
+  }
+}
